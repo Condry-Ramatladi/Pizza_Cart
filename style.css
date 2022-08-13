@@ -1,0 +1,52 @@
+
+body{
+    background-color:burlywood;
+    font-size: 2em;
+
+}
+ 
+.large{
+    background-color: crimson;
+}
+
+.medium{
+    background-color: cornflowerblue;
+}
+
+.small{
+    background-color: greenyellow;
+}
+
+.pizza{
+    border: solid brown;
+    margin: 3em;
+    padding: 3em;
+    border-radius: 2em;
+    width: 300em;
+}
+
+.pizza-contact{
+    border: solid brown;
+    margin: 3em;
+    padding: 3em;
+    border-radius: 2em;
+    display: flex;
+}
+
+/*.contact{
+    display: flex;
+    text-emphasis: bold;
+    font-weight: 300;
+    font-family:Impact, bold ;
+}*/
+
+@media(min-width: 960px) {
+    .pizzas{
+        display: flex;
+    }
+
+   
+    body{
+        background-color: white;
+    }
+}

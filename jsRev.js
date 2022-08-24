@@ -1,5 +1,1 @@
-console.log("Hello world");
-n = 0;
-for(i = 0; i <= 10; i++){
-    console.log(i)
-}
+function small()
